@@ -5,6 +5,7 @@ import Img1 from './img4.png';
 import Img2 from './img2.png';
 import Img3 from './img3.png';
 import Expo from './expo.png';
+import Footer from '../Footer/footer';
 
 import SimpleImageSlider from "react-simple-image-slider";
 
@@ -74,7 +75,8 @@ const Featured = () => {
           <h1>Join our Team<br/>Explore the Opportunities</h1>
           <p>Dream come true opportunity for those who aspire as high as a CXO!​<br/>Passion and perseverance alone can carry you there.​​<br/>We are a young startup in AI, with 11 years of design experience. Vast scope for growth awaiting you here.​</p>
           <button>Explore Careers</button>
-        </div>             
+        </div>
+        <Footer />             
     </div> </>);
 }
 export default Featured;
