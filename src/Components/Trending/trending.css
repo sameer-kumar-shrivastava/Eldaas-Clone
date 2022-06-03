@@ -1,0 +1,136 @@
+*{
+    font-family: Montserrat;
+
+ 
+}
+button:hover{
+    cursor: pointer;
+}
+.trending-container{
+    height:90vh;
+    width:100%;
+    /* background-color:antiquewhite; */
+    overflow: hidden;
+    margin-top: 10vh;
+}
+.trending-background{
+    height: 210vh;
+    width:40vw;
+    float: right;
+    background-color:#071E46;
+    overflow: hidden;
+    transform: rotate(45deg);
+}
+.trending-tag{
+    position: absolute;
+    top:108.5%;
+    background-color: orange;
+    left:10vw;
+    height:5px;
+    width:80px;
+
+}
+.trending-title{
+    font-family: Montserrat;
+    font-size: 40px;
+    position: absolute;
+    top:100%;
+    font-weight: 700;
+    color: #1A1A1A;
+    left:17vw;
+}
+.trending-subtitle{
+    font-family: Montserrat;
+    margin-top: 11vh;
+    margin-left:10vw;
+    font-size: 25px;
+    font-weight: 600;
+    color: #1A1A1A;
+    
+}
+.trending-desc{
+    margin-left: 10vw;
+    font-size: 15px;
+    font-family: Montserrat;
+    font-weight: 400;
+}
+.trending-image{
+    z-index:3;
+    position: absolute;
+    top:105vh;
+    right:8vw;
+    border-radius: 110px;
+    object-fit: contain;
+    height: 300px;
+}
+.trending-news-date{
+    display: inline-block;
+    color:#0380FA;
+    line-height: 100px;
+    vertical-align: middle;
+    margin-left: 10vw;
+    transition: all linear 0.2s;
+
+
+}
+.trending-news-date:hover{
+    color:#FF7902;
+    cursor: pointer;
+}
+.trending-news-p {
+    display: inline-block;
+    top:126vh;
+    color: #1A1A1A;
+    
+    line-height: 30px;
+    z-index: 5;
+    position: absolute;
+    left:19vw;
+}
+
+.trending-news-p p{
+   
+
+    line-height: 30px;
+  
+}
+.trending-news-p1 {
+    display: inline-block;
+    top:143.5vh;
+    color: #1A1A1A;
+    
+    line-height: 30px;
+    z-index: 5;
+    position: absolute;
+    left:19vw;
+}
+.trending-news-p2 {
+    display: inline-block;
+    top:155vh;
+    color: #1A1A1A;
+    
+    line-height: 30px;
+    z-index: 5;
+    position: absolute;
+    left:19vw;
+}
+.trending-news-p3 {
+    display: inline-block;
+    top:170.5vh;
+    color: #1A1A1A;
+    
+    line-height: 30px;
+    z-index: 5;
+    position: absolute;
+    left:19vw;
+}
+.blue-link{
+    color:blue;
+    
+}
+.blue-link:hover{
+    color:blue;
+    cursor: pointer;
+    
+}
+

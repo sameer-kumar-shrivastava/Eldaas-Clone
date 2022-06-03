@@ -1,0 +1,43 @@
+.navbar-container{
+    height: 95px;
+    width: 100%;
+    color: black;
+            
+}
+.navbar-logo{
+  
+    height: 60px;  
+    object-fit: contain;
+    position: absolute;
+    top: 4vh;
+    left:10vw;
+}
+.navbar-container ul{
+    
+    line-height: 10vh;
+    text-align: middle;
+    margin-right: 15vw;
+    font-weight: 600;
+}
+.navbar-container li{
+    display: inline-block;
+    float: right;
+    font-size: 13px;
+    padding: 5px;
+    margin-left: 20px;
+    transition: all linear 0.1s;
+}
+.orange{
+    color: #FF7902;
+}
+.navbar-container li:hover{
+    color:#FF7902;
+    /* text-decoration: underline; */
+    text-decoration-color: #FF7902;
+    text-decoration-thickness: 3px;
+    cursor: pointer;
+    
+}
+.search{
+    font-size: 35px;
+}
